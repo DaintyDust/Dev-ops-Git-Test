@@ -1,3 +1,4 @@
+
 *Wat ik al wist*
 
 Ik had zelf al veel geleerd over git met mijn eigen projecten en vorige projeten van school. hierdoor wist ik al hoe ik moest pullen, pushen en om moest gaan met comflicten.
@@ -9,3 +10,46 @@ Ik heb wel geleerd waarvoor branches zijn en hoe ik ze makkelijk kan gebruiken.
 *Wat ik wil leren*
 
 Ik wil nog leren om goed om te gaan met branches in groeps projecten zodat iedereen makkelijk aan zijn eigen deel kan werken.
+
+Overzicht wat ik, Xavina Fortuin, heb geleerd in de 3 workshops van intro tot Dev ops:
+
+1. Git Basics
+Git is een versiebeheersysteem waarmee je de geschiedenis van je code kunt bijhouden. Het helpt je veranderingen te volgen, terug te draaien en samen te werken met anderen.
+
+Belangrijke begrippen:
+    Repository (repo): De opslagplek van je project.
+    Commit: Een momentopname van je code met een bijbehorende boodschap.
+    Staging area: Tussenstap waarin je bestanden voorbereidt om te committen.
+
+Basiscommando’s van bash:
+
+git init         # Nieuwe repo aanmaken
+git add .        # Wijzigingen toevoegen aan staging
+git commit -m "Bericht"  # Commit maken
+git status       # Bekijk de status van je bestanden
+
+
+2. Branches
+Een branch is een zijpad van je code. Je werkt aan een feature zonder je hoofdcode (meestal main of master) te verstoren.
+
+Gebruik:
+    Werk aan nieuwe functionaliteit.
+    Probeer iets uit zonder risico.
+
+Basiscommando’s bash:
+
+git branch naam-van-branch     # Nieuwe branch maken
+git checkout naam-van-branch   # Wissel van branch
+git switch naam-van-branch     # (Nieuwere manier om te wisselen)
+
+
+3. Mergen
+Mergen betekent dat je de wijzigingen van één branch samenvoegt met een andere, meestal met de hoofdbranch (main).
+
+Zonder conflicten:
+
+git checkout main
+git merge naam-van-branch
+
+Bij conflicten: Git vraagt je handmatig te kiezen welke code je wilt behouden.
+

@@ -1,0 +1,11 @@
+*Wat ik al wist*
+
+Ik had zelf al veel geleerd over git met mijn eigen projecten en vorige projeten van school. hierdoor wist ik al hoe ik moest pullen, pushen en om moest gaan met comflicten.
+
+*Wat ik heb geleerd*
+
+Ik heb wel geleerd waarvoor branches zijn en hoe ik ze makkelijk kan gebruiken.
+
+*Wat ik wil leren*
+
+Ik wil nog leren om goed om te gaan met branches in groeps projecten zodat iedereen makkelijk aan zijn eigen deel kan werken.
